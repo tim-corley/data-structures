@@ -1,0 +1,2 @@
+{"/home/tim/Learning/Push/data-structures/queues/js-example-01/src/queue.js": {"path":"/home/tim/Learning/Push/data-structures/queues/js-example-01/src/queue.js","statementMap":{"0":{"start":{"line":2,"column":2},"end":{"line":2,"column":15}}},"fnMap":{"0":{"name":"sum","decl":{"start":{"line":1,"column":16},"end":{"line":1,"column":19}},"loc":{"start":{"line":1,"column":26},"end":{"line":3,"column":1}},"line":1}},"branchMap":{},"s":{"0":1},"f":{"0":1},"b":{},"_coverageSchema":"1a1c01bbd47fc00a2c39e90264f33305004495a9","hash":"ae05e6a16e0bc862036fb5f4cc03bf47d90f084a"}
+}
