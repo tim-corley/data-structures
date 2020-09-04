@@ -11,6 +11,13 @@ export default class SinglyList {
     this.head = null;
   }
 
+  // -- HELPER FUNCTIONS --
+
+  deleteList() {
+    this.length = 0;
+    this.head = null;
+  }
+
   // retrieve node at provided position
   getAt(index) {
     let counter = 0;
@@ -24,6 +31,22 @@ export default class SinglyList {
     }
     return null;
   }
+
+  printList() {
+    let currentNode = this.head;
+    let nodes = "<START> ";
+    while (currentNode) {
+      nodes += `${currentNode.data} -> `;
+      currentNode = currentNode.next;
+      if (!currentNode) {
+        nodes += "<END>";
+      }
+    }
+    // console.log(nodes);
+    return nodes;
+  }
+
+  // -- LIST OPERATIONS --
 
   // insert new node at end of list
   addBack(data) {
@@ -115,5 +138,23 @@ export default class SinglyList {
     return this.head;
   }
 
-  removeAt() {}
+  removeAt(index) {
+    if (!this.head) {
+      this.length--;
+      return;
+    }
+    if (index === 0) {
+      this.head = this.head.next;
+      this.length--;
+      return;
+    }
+    const prevNode = this.getAt(index - 1);
+    if (!prevNode || !prevNode.next) {
+      this.length--;
+      return;
+    }
+    prevNode.next = prevNode.next.next;
+    this.length--;
+    return this.head;
+  }
 }

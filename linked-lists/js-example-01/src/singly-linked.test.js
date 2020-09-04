@@ -61,5 +61,42 @@ test("deleting first list item works", () => {
   const demoSinglyList = new SinglyList();
   demoSinglyList.addFront("Bravo");
   demoSinglyList.addFront("Alpha");
-  expect(demoSinglyList.removeFront().data).toEqual("Bravo");
+  demoSinglyList.removeFront();
+  expect(demoSinglyList.head.data).toEqual("Bravo");
+});
+
+test("deleting last list item works", () => {
+  const demoSinglyList = new SinglyList();
+  demoSinglyList.addFront("Three");
+  demoSinglyList.addFront("Two");
+  demoSinglyList.addFront("One");
+  demoSinglyList.removeBack();
+  expect(demoSinglyList.head.next.next).toEqual(null);
+});
+
+test("deleting item at specified position works", () => {
+  const demoSinglyList = new SinglyList();
+  demoSinglyList.addFront("Three");
+  demoSinglyList.addFront("Two");
+  demoSinglyList.addFront("One");
+  demoSinglyList.removeAt(1);
+  expect(demoSinglyList.head.next.data).toEqual("Three");
+});
+
+test("deleting list works", () => {
+  const demoSinglyList = new SinglyList();
+  demoSinglyList.addFront("Three");
+  demoSinglyList.addFront("Two");
+  demoSinglyList.addFront("One");
+  demoSinglyList.deleteList();
+  expect(demoSinglyList.head).toEqual(null);
+});
+
+test("printing list works", () => {
+  const demoSinglyList = new SinglyList();
+  demoSinglyList.addFront("Three");
+  demoSinglyList.addFront("Two");
+  demoSinglyList.addFront("One");
+  const printedList = demoSinglyList.printList();
+  expect(printedList).toEqual("<START> One -> Two -> Three -> <END>");
 });
