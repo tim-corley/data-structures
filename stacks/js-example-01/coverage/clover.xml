@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599181567109" clover="3.2.0">
-  <project timestamp="1599181567110" name="All files">
+<coverage generated="1599249046792" clover="3.2.0">
+  <project timestamp="1599249046792" name="All files">
     <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6" elements="18" coveredelements="18" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
-    <file name="stack.js" path="/home/tim/Learning/Push/data-structures/stacks/js-example-01/src/stack.js">
+    <file name="stack.mjs" path="/home/tim/Learning/Push/data-structures/stacks/js-example-01/src/stack.mjs">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="6"/>
-      <line num="5" count="8" type="stmt"/>
-      <line num="11" count="14" type="stmt"/>
-      <line num="15" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="4" type="stmt"/>
-      <line num="20" count="1" type="stmt"/>
-      <line num="24" count="2" type="stmt"/>
+      <line num="4" count="8" type="stmt"/>
+      <line num="10" count="14" type="stmt"/>
+      <line num="14" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="27" count="1" type="stmt"/>
       <line num="28" count="1" type="stmt"/>
-      <line num="29" count="1" type="stmt"/>
-      <line num="30" count="3" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
+      <line num="31" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

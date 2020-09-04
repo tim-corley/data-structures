@@ -1,4 +1,4 @@
-import Stack from "./stack";
+import Stack from "./stack.mjs";
 
 test("item is pushed to the stack", () => {
   const demoStack = new Stack();

@@ -59,6 +59,7 @@ export default class DoublyList {
     this.length--;
     return data;
   }
+
   searchNode(data) {
     let currentNode = this.head;
     while (currentNode) {

@@ -1,9 +1,4 @@
 module.exports = {
-  transform: {
-    "^.+\\.jsx?$": "babel-jest",
-    "^.+\\.mjs$": "babel-jest",
-  },
-  moduleFileExtensions: ["js", "jsx", "mjs"],
   // Flag to indicate if Code Coverage to be collected and reported
   collectCoverage: true,
 

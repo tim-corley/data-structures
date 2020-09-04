@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1599243614453" clover="3.2.0">
-  <project timestamp="1599243614453" name="All files">
+<coverage generated="1599249639826" clover="3.2.0">
+  <project timestamp="1599249639826" name="All files">
     <metrics statements="124" coveredstatements="101" conditionals="38" coveredconditionals="26" methods="18" coveredmethods="18" elements="180" coveredelements="145" complexity="0" loc="124" ncloc="124" packages="1" files="2" classes="2"/>
-    <file name="doubly-linked.js" path="/home/tim/Learning/Push/data-structures/linked-lists/js-example-01/src/doubly-linked.js">
+    <file name="doubly-linked.mjs" path="/home/tim/Learning/Push/data-structures/linked-lists/js-example-01/src/doubly-linked.mjs">
       <metrics statements="37" coveredstatements="35" conditionals="14" coveredconditionals="10" methods="7" coveredmethods="7"/>
       <line num="3" count="13" type="stmt"/>
       <line num="4" count="13" type="stmt"/>
@@ -36,13 +36,13 @@
       <line num="57" count="1" type="stmt"/>
       <line num="59" count="1" type="stmt"/>
       <line num="60" count="1" type="stmt"/>
-      <line num="63" count="1" type="stmt"/>
       <line num="64" count="1" type="stmt"/>
-      <line num="65" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="66" count="2" type="stmt"/>
-      <line num="68" count="0" type="stmt"/>
+      <line num="65" count="1" type="stmt"/>
+      <line num="66" count="3" type="cond" truecount="2" falsecount="0"/>
+      <line num="67" count="2" type="stmt"/>
+      <line num="69" count="0" type="stmt"/>
     </file>
-    <file name="singly-linked.js" path="/home/tim/Learning/Push/data-structures/linked-lists/js-example-01/src/singly-linked.js">
+    <file name="singly-linked.mjs" path="/home/tim/Learning/Push/data-structures/linked-lists/js-example-01/src/singly-linked.mjs">
       <metrics statements="87" coveredstatements="66" conditionals="24" coveredconditionals="16" methods="11" coveredmethods="11"/>
       <line num="3" count="34" type="stmt"/>
       <line num="4" count="34" type="stmt"/>

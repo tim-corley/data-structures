@@ -1,5 +1,5 @@
 TN:
-SF:src/priority-queue.js
+SF:src/priority-queue.mjs
 FN:2,(anonymous_0)
 FN:6,(anonymous_1)
 FN:10,(anonymous_2)
@@ -39,7 +39,7 @@ BRF:6
 BRH:5
 end_of_record
 TN:
-SF:src/queue.js
+SF:src/queue.mjs
 FN:2,(anonymous_0)
 FN:7,(anonymous_1)
 FN:11,(anonymous_2)

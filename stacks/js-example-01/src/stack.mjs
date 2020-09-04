@@ -1,4 +1,3 @@
-// Stack class
 export default class Stack {
   // Array is used to implement stack
   constructor() {
