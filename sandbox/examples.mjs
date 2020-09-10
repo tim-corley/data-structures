@@ -49,6 +49,7 @@ console.log("\n///// HASH TABLE //////\n");
 const demoHash = new Hash();
 demoHash.add("Medfield", 12052);
 demoHash.add("Newton", 12458);
+demoHash.add("Newton", 99999);
 demoHash.print();
 demoHash.remove("Newton");
 demoHash.print();

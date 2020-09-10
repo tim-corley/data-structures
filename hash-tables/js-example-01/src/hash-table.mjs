@@ -2,6 +2,9 @@ export default class Hash {
   constructor() {
     this.storage = [];
     this.storageLimit = 12;
+    // could also use:
+    // storage = new Array(12)
+    // where this.storage.length can me passed for max arg
   }
 
   hashFunction(str, max) {
@@ -23,6 +26,8 @@ export default class Hash {
     if (this.storage[index] === undefined) {
       this.storage[index] = [[key, val]];
     } else {
+      // if bucket not empty & key already exists, add new value
+      // will be used when updating a value on a key/val pair
       let inserted = false;
       for (let i = 0; i < this.storage[index].length; i++) {
         if (this.storage[index][i][0] === key) {
@@ -30,6 +35,8 @@ export default class Hash {
           inserted = true;
         }
       }
+      // avoid collisions by chaining...
+      // if bucket not empty & no key already exists/matches push new key/val pair to array[index]
       if (!inserted) {
         this.storage[index].push([key, val]);
       }
