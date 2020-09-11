@@ -24,6 +24,15 @@ test("items removed from the stack", () => {
   expect(demoStack.items).toEqual(["Alpha"]);
 });
 
+test("size returns correct value", () => {
+  const demoStack = new Stack();
+  demoStack.push("Bravo");
+  demoStack.push("Charlie");
+  demoStack.push("Delta");
+  demoStack.pop();
+  expect(demoStack.size).toEqual(2);
+});
+
 test("'No Stack' string returned when popping empty stack", () => {
   const demoStack = new Stack();
   demoStack.push("Bravo");
