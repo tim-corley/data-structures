@@ -63,8 +63,8 @@ console.log(setA.subset(setAlpha)); // false
 console.log("\n/////// QUEUE ////////\n");
 
 const demoQueue = new Queue();
-demoQueue.add("Delta");
 demoQueue.add("Echo");
+demoQueue.add("Foxtrot");
 console.log(demoQueue.queue);
 
 console.log("\n///// PRIORITY QUEUE //////\n");
