@@ -8,6 +8,7 @@ import PriorityQueue from "../queues/js-example-01/src/priority-queue.mjs";
 import SinglyList from "../linked-lists/js-example-01/src/singly-linked.mjs";
 import DoublyList from "../linked-lists/js-example-01/src/doubly-linked.mjs";
 import Hash from "../hash-tables/js-example-01/src/hash-table.mjs";
+import BST from "../binary-tree/js-example-01/src/binary-tree.mjs";
 
 console.log("\n/////// STACK ////////\n");
 
@@ -111,3 +112,35 @@ console.log(test);
 let testArr = [];
 demoHash.storage.forEach((item) => (item ? testArr.push(item) : null));
 console.log(testArr);
+
+console.log("\n/////// BINARY SEARCH TREE ////////\n");
+
+const demoTree = new BST();
+demoTree.add(34);
+demoTree.add(45);
+demoTree.add(19);
+demoTree.add(6);
+demoTree.add(7);
+demoTree.add(25);
+console.log(`MAX VALUE IN TREE IS: ${demoTree.findMax()}`);
+console.log(`DOES THE VALUE '7' EXIST IN THE TREE? ${demoTree.isPresent(7)}`);
+console.log(demoTree.isPresent(25));
+console.log(demoTree.isPresent(99));
+demoTree.remove(7);
+console.log(`MAX VALUE IN TREE IS: ${demoTree.findMax()}`);
+console.log(`DOES THE VALUE '7' EXIST IN THE TREE? ${demoTree.isPresent(7)}`);
+console.log(`\n-----\n`);
+console.log(demoTree.isBalanced());
+demoTree.add(8);
+demoTree.add(77);
+demoTree.add(40);
+demoTree.add(90);
+demoTree.add(91);
+console.log(demoTree.isBalanced());
+console.log(demoTree.findMinHeight());
+console.log(demoTree.findMaxHeight());
+console.log(`\n-----\n`);
+console.log(demoTree.inOrder());
+console.log(demoTree.preOrder());
+console.log(demoTree.postOrder());
+console.log(demoTree.levelOrder());
