@@ -1,14 +1,14 @@
 // NOTE: to run - use: $ node --experimental-modules examples.mjs
 // SEE: https://blog.logrocket.com/how-to-use-ecmascript-modules-with-node-js/
 
-import Stack from "../stacks/js-example-01/src/stack.mjs";
-import mySet from "../sets/js-example-01/src/sets.mjs";
-import Queue from "../queues/js-example-01/src/queue.mjs";
-import PriorityQueue from "../queues/js-example-01/src/priority-queue.mjs";
-import SinglyList from "../linked-lists/js-example-01/src/singly-linked.mjs";
-import DoublyList from "../linked-lists/js-example-01/src/doubly-linked.mjs";
-import Hash from "../hash-tables/js-example-01/src/hash-table.mjs";
-import BST from "../binary-tree/js-example-01/src/binary-tree.mjs";
+import Stack from "../stacks/js-example-01/stack.mjs";
+import mySet from "../sets/js-example-01/sets.mjs";
+import Queue from "../queues/js-example-01/queue.mjs";
+import PriorityQueue from "../queues/js-example-01/priority-queue.mjs";
+import SinglyList from "../linked-lists/js-example-01/singly-linked.mjs";
+import DoublyList from "../linked-lists/js-example-01/doubly-linked.mjs";
+import Hash from "../hash-tables/js-example-01/hash-table.mjs";
+import BST from "../binary-tree/js-example-01/binary-tree.mjs";
 
 console.log("\n/////// STACK ////////\n");
 
